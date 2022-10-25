@@ -14,7 +14,9 @@ def binary_search(array, item):
             low = mid + 1
     return None
 
+
 my_list = list(range(0, 100))
+
 print(binary_search(my_list, 88))
 print(binary_search(my_list, -1))
 
