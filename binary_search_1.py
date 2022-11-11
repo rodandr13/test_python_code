@@ -1,5 +1,3 @@
-# Бинарный поиск по книге "Грокаем алгоритмы"
-
 def binary_search(array, item):
     low = 0
     high = len(array) - 1
@@ -15,7 +13,7 @@ def binary_search(array, item):
     return None
 
 
-my_list = list(range(0, 100))
+my_list = [6, 3, 1, 7, 9, 5]
 
 print(binary_search(my_list, 88))
 print(binary_search(my_list, -1))
