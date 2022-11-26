@@ -1,7 +1,7 @@
 from prefix import prefix
 
 
-def kmp(s,t):
+def kmp(s, t):
     index = -1
     f = prefix(s)
     k = 0
@@ -16,5 +16,6 @@ def kmp(s,t):
     return index
 
 
+substr = "abc"
 string = "abcdabcabcdabcdab"
-print(prefix(string))
+print(kmp(string, substr))
