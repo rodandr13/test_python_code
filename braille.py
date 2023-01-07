@@ -42,4 +42,4 @@ while True:
         break
     text.append(line)
 
-braille(text, True)
+braille(text)
